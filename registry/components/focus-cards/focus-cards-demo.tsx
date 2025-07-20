@@ -31,8 +31,10 @@ const cards = [
 
 export default function FocusCardsDemo() {
   return (
-    <div className="w-full min-h-[600px] flex items-center justify-center p-4">
-      <FocusCards cards={cards} />
+    <div className="w-full min-h-[500px] flex items-center justify-center p-6 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+      <div className="w-full max-w-5xl">
+        <FocusCards cards={cards} />
+      </div>
     </div>
   );
 }
