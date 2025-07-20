@@ -10,6 +10,11 @@ export const SpecialComponents = [
     name: 'Products-Cards',
     component: 'card',
   }, 
+  {
+    href: '/components/focus-cards',
+    name: 'Focus Cards',
+    new: true,
+  },
 
   { href: '/components/footers', name: 'Footers' },
   { href: '/components/horizontal-scroll', name: 'Horizontal Scroll' },
@@ -22,6 +27,11 @@ export const SpecialComponents = [
     href: '/components/testing ',
     name: 'testing',
     component: 'test',
+    new: true,
+  },
+  {
+    href: '/components/floating-button',
+    name: 'Floating Button',
     new: true,
   },
 ];
@@ -37,6 +47,12 @@ export const MainComponents = [
   {
     href: '/components/motion-number',
     name: 'Motion Number',
+    new: true,
+    component: 'creative',
+  },
+  {
+    href: '/components/ocean-waves',
+    name: 'Ocean Waves',
     new: true,
     component: 'creative',
   },

@@ -110,6 +110,20 @@
       "type": "card"
     },
     {
+      "name": "Focus Cards",
+      "componentArray": [
+        {
+          "componentName": "focus-cards",
+          "filesrc": "components/focus-cards/focus-cards-demo.tsx",
+          "iframeSrc": "live-components/focus-cards",
+          "parentlink": "focus-cards",
+          "parentName": "Focus Cards"
+        }
+      ],
+      "type": "card",
+      "new": true
+    },
+    {
       "name": "Footers",
       "componentArray": [
         {
@@ -229,6 +243,34 @@
           "iframeSrc": "live-components/motion-number-first",
           "parentlink": "motion-number",
           "parentName": "Motion Number"
+        }
+      ],
+      "type": "creative",
+      "new": true
+    },
+    {
+      "name": "Ocean Waves",
+      "componentArray": [
+        {
+          "componentName": "animated-ocean-waves",
+          "filesrc": "components/ocean-waves/animated-ocean-waves.tsx",
+          "iframeSrc": "live-components/animated-ocean-waves",
+          "parentlink": "ocean-waves",
+          "parentName": "Ocean Waves"
+        }
+      ],
+      "type": "creative",
+      "new": true
+    },
+    {
+      "name": "Floating Button",
+      "componentArray": [
+        {
+          "componentName": "floating-button",
+          "filesrc": "components/floating-button/floating-button.tsx",
+          "iframeSrc": "live-components/floating-button",
+          "parentlink": "floating-button",
+          "parentName": "Floating Button"
         }
       ],
       "type": "creative",
